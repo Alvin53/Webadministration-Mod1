@@ -4,7 +4,7 @@
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <title>Feedback Form HTML Template - reusable form</title>
+        <title>Feedback</title>
         <!-- Latest compiled and minified CSS -->
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" >
         <!-- Optional theme -->
@@ -14,19 +14,21 @@
         <link rel="stylesheet" href="form.css" >
         <script src="form.js"></script>
     <link rel="stylesheet" href="styles.css">
-        
-    </head>
-    
-    <body >
+
         <header> 
             <a href="home.html" class ="logo"><span>W</span>eb Admin 101</a>
             <nav>
                 <ul class="navigation">
                     <li><a href="#Home">Home</a></li>
                     <li><a href="ftp.html">FTP Client Softwares</a></li>
+                    <li><a href="formpage.html">Feedback</a></li>
+    
+    
                 </ul>
             </nav>
         </header>
+    </head>
+    <body >
         <div class="container">
             <div class="imagebg"></div>
             <div class="row " style="margin-top: 50px">
@@ -36,7 +38,7 @@
                     <form role="form" method="post" id="reused_form">
                         <div class="row">
                             <div class="col-sm-12 form-group">
-                                <label>How do you rate your overall experience?</label>
+                                <label>How do you rate your overall experience- while using this website?</label>
                                 <p>
                                     <label class="radio-inline">
                                         <input type="radio" name="experience" id="radio_experience" value="bad" >
@@ -50,68 +52,133 @@
                                         <input type="radio" name="experience" id="radio_experience" value="good" >
                                         Good 
                                     </label>
+                                    <label class="radio-inline">
+                                        <input type="radio" name="experience" id="radio_experience" value="good" >
+                                        Excellent
+                                    </label>
                                 </p>
                             </div>
                         </div>
                         <div class="row">
                             <div class="col-sm-12 form-group">
-                                <label>Question here?</label>
+                                <label>Is this website informative ?</label>
                                 <p>
                                     <label class="radio-inline">
                                         <input type="radio" name="experience" id="radio_experience" value="bad" >
-                                        Bad 
+                                       Yes
                                     </label>
                                     <label class="radio-inline">
                                         <input type="radio" name="experience" id="radio_experience" value="average" >
-                                        Average 
+                                        No
                                     </label>
-                                    <label class="radio-inline">
-                                        <input type="radio" name="experience" id="radio_experience" value="good" >
-                                        Good 
-                                    </label>
+                                   
                                 </p>
                             </div>
                         </div>
                         <div class="row">
                             <div class="col-sm-12 form-group">
-                                <label>Question here?</label>
+                                <label>Is the information on this website easily understood?</label>
                                 <p>
                                     <label class="radio-inline">
                                         <input type="radio" name="experience" id="radio_experience" value="bad" >
-                                        Bad 
+                                        Yes
                                     </label>
                                     <label class="radio-inline">
                                         <input type="radio" name="experience" id="radio_experience" value="average" >
-                                        Average 
+                                        No
                                     </label>
-                                    <label class="radio-inline">
-                                        <input type="radio" name="experience" id="radio_experience" value="good" >
-                                        Good 
-                                    </label>
+                                   
                                 </p>
                             </div>
                         </div>
                         <div class="row">
                             <div class="col-sm-12 form-group">
-                                <label>Question here?</label>
+                                <label> Did you face any challenges  while usings this website? If Yes please state ...</label>
                                 <p>
                                     <label class="radio-inline">
                                         <input type="radio" name="experience" id="radio_experience" value="bad" >
-                                        Bad 
+                                        Yes
                                     </label>
                                     <label class="radio-inline">
                                         <input type="radio" name="experience" id="radio_experience" value="average" >
-                                        Average 
+                                        No 
+                                    </label>
+                                    
+                                </p>
+                                <div class="col-sm-12 form-group">
+                                    <label for="comments"> Comments:</label>
+                                    <textarea class="form-control" type="textarea" name="comments" id="comments" placeholder="Your Comments" maxlength="6000" rows="7"></textarea>
+                                </div>
+                            </div>
+                            
+                        </div>
+                        <div class="row">
+                            <div class="col-sm-12 form-group">
+                                <label>Was it difficult to locate our website online ?</label>
+                                <p>
+                                    <label class="radio-inline">
+                                        <input type="radio" name="experience" id="radio_experience" value="bad" >
+                                        Yes
                                     </label>
                                     <label class="radio-inline">
-                                        <input type="radio" name="experience" id="radio_experience" value="good" >
-                                        Good 
+                                        <input type="radio" name="experience" id="radio_experience" value="average" >
+                                        No
                                     </label>
+                               
                                 </p>
                             </div>
                         </div>
                         <div class="row">
                             <div class="col-sm-12 form-group">
+                                <label>What would you like to be improved on this website i.e links,content or color scheme etc?</label>
+                                <p>
+        
+                                </p>
+                                <div class="col-sm-12 form-group">
+                                    <label for="comments"> Comments:</label>
+                                    <textarea class="form-control" type="textarea" name="comments" id="comments" placeholder="Your Comments" maxlength="6000" rows="7"></textarea>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-sm-12 form-group">
+                                <label>Is it easy to navigate from one page to the next?</label>
+                                <p>
+                                    <label class="radio-inline">
+                                        <input type="radio" name="experience" id="radio_experience" value="bad" >
+                                        Yes
+                                    </label>
+                                    <label class="radio-inline">
+                                        <input type="radio" name="experience" id="radio_experience" value="average" >
+                                        No
+                                    </label>
+                               
+                                </p>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-sm-12 form-group">
+                                <label>Would you recommend this website to other persons?</label>
+                                <p>
+                                    <label class="radio-inline">
+                                        <input type="radio" name="experience" id="radio_experience" value="bad" >
+                                       Yes 
+                                    </label>
+                                    <label class="radio-inline">
+                                        <input type="radio" name="experience" id="radio_experience" value="average" >
+                                        No
+                                    </label>
+                               
+                                </p>
+                            </div>
+                        </div>
+                        <div class="row">
+                            
+                           
+                            <div class="col-sm-12 form-group">
+                                <p>
+                                    <label>Do you have any question?</label>
+                                </p>
                                 <label for="comments"> Comments:</label>
                                 <textarea class="form-control" type="textarea" name="comments" id="comments" placeholder="Your Comments" maxlength="6000" rows="7"></textarea>
                             </div>
@@ -128,7 +195,7 @@
                         </div>
                         <div class="row">
                             <div class="col-sm-12 form-group">
-                                <button style="color: black;"type="submit" class="btn" >Post </button>
+                                <button style="color:black"type="submit" class="btn btn-lg btn-warning btn-block" >Post </button>
                             </div>
                         </div>
                     </form>
